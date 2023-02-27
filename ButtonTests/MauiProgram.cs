@@ -1,6 +1,4 @@
-﻿using Telerik.Maui.Controls.Compatibility;
-
-namespace ButtonTests;
+﻿namespace ButtonTests;
 
 public static class MauiProgram
 {
@@ -9,7 +7,6 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
-            .UseTelerik()
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
